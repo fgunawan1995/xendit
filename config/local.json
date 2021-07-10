@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port" : "8080"
+    },
+    "marvel": {
+        "host": "https://gateway.marvel.com:443",
+        "public_key": "4632520c26b66b0e235e4c07a61ed294",
+        "private_key": "3f422c651bbe50a62f3050fa29e163df2a27a66c",
+        "get_character" : "/v1/public/characters",
+        "timeout_in_millisecond": 30000
+    },
+    "cache": {
+        "default_expiration_in_minutes": 1440
+    }
+}
